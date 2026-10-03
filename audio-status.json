@@ -1,0 +1,26 @@
+{
+ "updatedAt": "2026-10-03T10:42:21.021Z",
+ "voice": "gpt-4o-mini-tts / coral",
+ "texts": 1235,
+ "recordedV1": 505,
+ "generated": 730,
+ "missing": [],
+ "lastRun": {
+  "created": 0,
+  "failed": 0,
+  "removed": 0,
+  "keySet": true,
+  "savedAsVariable": false,
+  "keyOk": true,
+  "keys": [
+   {
+    "name": "KOREAN_SPK",
+    "ok": true,
+    "status": 200,
+    "length": 164,
+    "prefix": "sk-proj-"
+   }
+  ],
+  "error": null
+ }
+}
