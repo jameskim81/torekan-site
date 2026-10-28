@@ -1,0 +1,1 @@
+const s=["good","ok","bad"],e=500,d={ja:{good:"よかった",ok:"ふつう",bad:"いまいち"},ko:{good:"좋았어요",ok:"보통",bad:"아쉬워요"}};async function c({db:o,fsMod:a},t){await a.setDoc(a.doc(o,"feedback",`${t.slot}_${t.uid}`),{slot:t.slot,uid:t.uid,rating:t.rating,text:t.text.trim().slice(0,500),at:a.serverTimestamp()})}export{e as F,d as R,s as a,c as s};
